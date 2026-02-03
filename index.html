@@ -293,18 +293,27 @@
 
       <!-- ✅ Prompt box (audio question) -->
       <div class="prompt">
-        <h2>🔊 Listen to the question and express an opinion</h2>
+  <h2>🔊 Listen to the question and express an opinion</h2>
 
-        <!-- ✅ Put your mp3 in the same repo as index.html -->
-        <audio controls preload="metadata">
-          <source src="toeic-speaking-task-5.mp3" type="audio/mpeg" />
-          Your browser does not support the audio element.
-        </audio>
+  <div class="qBlock">
+    <div class="qHeader"><span class="qNum">1</span> Question</div>
 
-        <p class="instruction">
-          You are given 15 seconds to prepare your response. Once the recording starts, you must express your opinion within the time limit (60 seconds).
-        </p>
-      </div>
+    <audio controls preload="metadata">
+      <source src="toeic-speaking-task-5.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="questionText">
+      <span class="questionIcon" aria-hidden="true">💬</span>
+      Some companies are considering a four-day work week. Do you think this is a good idea?
+      Explain your opinion and give reasons and examples to support it.
+    </div>
+  </div>
+
+  <p class="instruction">
+    You are given 15 seconds to prepare your response. Once the recording starts, you must express your opinion within the time limit (60 seconds).
+  </p>
+</div>
 
       <p class="questionText">
   <strong>❓Question:</strong> Some companies are considering a four-day work week. Do you think this is a good idea? Explain your opinion and give reasons and examples to support it.
